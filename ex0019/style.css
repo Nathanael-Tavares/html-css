@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* id vira # no css
+class vira "." no css */
+body{
+    background-color: rgb(153, 232, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(3, 67, 18);
+}
+h1#principal{
+    text-align: center;
+}
+h2{
+    color: 
+    rgb(2, 90, 21);
+}
+
+.basico{
+    color: rgb(44, 168, 44);
+
+}
+.intermediario{
+    color: yellow;
+
+}
+.avancado{
+    color: red;
+}
+.destaque{
+    background-color: rgba(215, 215, 10, 0.485);
+}
