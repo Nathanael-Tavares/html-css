@@ -27,7 +27,16 @@
     height: 400px;
 }
 
+button{
+    position: absolute;
 
+    margin-top: 80px;
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    font-size: 1.5em;
+    background-image: linear-gradient(rgb(0, 255, 42),white);
+}   
 .pipe{
     position: absolute;
     bottom: 0;
