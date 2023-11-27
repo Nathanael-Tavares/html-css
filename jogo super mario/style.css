@@ -27,9 +27,8 @@
     height: 400px;
 }
 
-button{
+#clickbtn{
     position: absolute;
-    
     width: 500px;
     height: 200px;
     border-radius: 30px;
@@ -44,7 +43,7 @@ button{
     animation: pipe-animation 1.5s infinite linear;
 }
 .jump{
-    animation: jump .6s;
+    animation: jump .6s ease-out;
 }
 
 .clouds{
