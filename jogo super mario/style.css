@@ -43,7 +43,7 @@
     animation: pipe-animation 1.12s infinite linear;
 }
 .jump{
-    animation: jump .6s ease-out;
+    animation: jump .8s ease-out;
 }
 
 .clouds{
