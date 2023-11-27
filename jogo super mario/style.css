@@ -21,6 +21,13 @@
     
     
 }
+.botao {
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+
 .pipe{
     position: absolute;
     bottom: 0;
