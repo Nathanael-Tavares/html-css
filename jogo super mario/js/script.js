@@ -1,6 +1,5 @@
 const mario=document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
-let btn1= document.querySelector('#clickbtn');
 
 
 
@@ -12,7 +11,7 @@ const jump = () => {
         mario.classList.remove('jump')
     } ,500)
 }
-btn1.addEventListener("click",jump)
+
 const loop = setInterval(()=>{
     const pipeposition= pipe.offsetLeft;
     const marioposition= +window.getComputedStyle(mario).bottom.replace("px","");
@@ -29,3 +28,5 @@ const loop = setInterval(()=>{
     }
 },6);
 document.addEventListener('keydown', jump);
+document.addEventListener('touchstart', jump)
+document.addEventListener('click', jump)
